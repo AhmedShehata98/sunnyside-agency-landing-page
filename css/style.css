@@ -421,7 +421,6 @@ main.testimonials .PageTitle > h2{
 }
 .container .people-testimonials .person-image img{
     max-width: 100%;
-    height: 100%;
     aspect-ratio: 1/1;
     object-fit: cover;
 }
@@ -439,8 +438,7 @@ main.projects .proj-image {
 }
 main.projects .proj-image img{
     max-width: 100%;
-    height: 100%;
-    object-fit: fill;
+    object-fit: cover;
 }
 
 @media (max-width:768px) {
