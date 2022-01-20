@@ -426,7 +426,7 @@ main.testimonials .PageTitle > h2{
     object-fit: cover;
 }
 main.projects{
-    min-height: fit-content;
+    min-height: 30vh;
 }
 @media (max-width:992px) {
     main.projects{
