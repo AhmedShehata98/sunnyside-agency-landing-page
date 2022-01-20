@@ -280,6 +280,15 @@ main.services .serv-box-text button.learn-more a{
     text-decoration: none;
     color: var(--Very-dark-grayish-blue);
 }
+@media (max-width:768px) {
+    main.services .serv-box-text{
+        padding: 70px 20px;
+    }
+    main.services .serv-box-text .title{
+        text-align: center;
+    }
+    
+}
 main.services .product-image {
     flex-basis: 50%;
 }
@@ -383,6 +392,10 @@ main.testimonials .PageTitle > h2{
     padding: 15px;
     max-width: 350px;
     margin-bottom: 80px;
+    transition: transform 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.container .people-testimonials:hover{
+    transform: translateY(-25px) scale(1.05);
 }
 .container .people-testimonials > .opinions-text{
     color: var(--Very-dark-grayish-blue);
